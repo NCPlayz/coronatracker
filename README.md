@@ -12,4 +12,11 @@ Country(total_stats=TotalStats(confirmed=1551, deaths=53, recovered=19), id='uni
 
 ## Requirements
 
-- Request
+- Requests
+
+## Install
+
+```sh
+$ python -m pip install -U coronatracker
+```
+
