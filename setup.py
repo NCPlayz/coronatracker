@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setup(
     name='coronatracker',
-    version='0.1',
+    version='0.2',
     packages=['coronatracker'],
     url='https://github.com/NCPlayz/coronatracker',
     license='MIT',
@@ -14,8 +14,8 @@ setup(
     description='A Python wrapper for Bing\'s COVID19 tracker.',
     long_description=readme,
     long_description_content_type='text/markdown',
-    python_requires='>=3',
-    install_requires='requests==2.23.0',
+    python_requires='>=3.7.0',
+    install_requires=['requests>=2.23.0', 'aiohttp>=3.6.2'],
     classifiers=[
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
